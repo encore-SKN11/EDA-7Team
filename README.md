@@ -182,31 +182,70 @@
 * 값이 0인 데이터가 많을 경우 데이터의 불균형이 심화될 가능성 존재
 * 값이 0인 데이터가 30%를 초과할 경우 임계값을 설정하여 데이터 값을 0과 1로 이진화
 * 데이터의 임계값은 이상치를 제외한 값들의 평균 사용
-* 값이 0인 데이터가 30%를 초과하는 word_group2, group3, group5의 평균값 확인을 위해 박스 (box) 플롯 작성
+* 값이 0인 데이터가 30%를 초과하는 word_group2, group3, group5의 평균값 확인을 위해 박스(box) 플롯 작성
 
 <p align="center">
-  <img src="./readme_image/box_group2.png" height="150" width="1000">
-</p>
-
+  <img src="./readme_image/box_group2.png" height="530" width="600">
+</p>  
 <div align="center">
-  그림 3.7 데이터 속성 군집화 후 데이터 프래임 개요
+  그림 3.7 word_group2_frq 속성의 박스 플롯
 </div>
 <br>
 
 <p align="center">
-  <img src="./readme_image/box_group3.png" height="150" width="1000">
-</p>
-
+  <img src="./readme_image/box_group3.png" height="530" width="600">
+</p>  
 <div align="center">
-  그림 3.8 데이터 속성 군집화 후 데이터 프래임 개요
+  그림 3.8 word_group3_frq 속성의 박스 플롯
 </div>
 <br>
 
 <p align="center">
-  <img src="./readme_image/box_group5.png" height="150" width="1000">
+  <img src="./readme_image/box_group5.png" height="530" width="600">
+</p>  
+<div align="center">
+  그림 3.9 word_group5_frq 속성의 박스 플롯
+</div>
+<br>
+
+* 박스 플롯을 통해 group2, group3, group5의 데이터의 불균형이 심함을 확인할 수 있음
+
+<p align="center">
+  <img src="./readme_image/전처리 후 그루핑 데이터 프레임.png" height="150" width="1000">
 </p>
 
 <div align="center">
-  그림 3.9 데이터 속성 군집화 후 데이터 프래임 개요
+  그림 3.10 데이터 속성 군집화 후 데이터 프래임 개요
 </div>
 <br>
+
+
+### 4) ⚖️ 데이터 스케일링
+
+* 전체적인 데이터 속성들의 스케일을 통일시키기 위해 `StandardScaler()` 수행
+
+<p align="center">
+  <img src="./readme_image/정규화 후 그루핑 데이터 프레임.png" height="150" width="1000">
+</p>
+
+<div align="center">
+  그림 3.11 데이터 정규화 후 데이터 프래임 개요
+</div>
+<br>
+
+
+---
+## 4. 📜 결론
+
+**- 본 프로젝트에서는 스팸메일 데이터를 탐색적으로 분석(EDA)하고, 효과적인 데이터 전처리 및 피처 엔지니어링을 수행함.**
+
+**- 스팸메일은 특정 단어의 반복적 사용, 비정상적인 문자 조합 등의 특징을 보이며, 이러한 특성이 데이터 분석을 통해 명확히 확인됨.**
+
+**- 데이터 간 상관관계를 분석하여 연관성이 높은 속성들을 군집화하고, 이를 기반으로 보다 효율적인 데이터프레임을 구축함.**
+
+**- 데이터 불균형 문제를 해결하기 위해 평균값을 활용하여 데이터를 이진화하고, 불균형성을 완화하는 전처리 과정을 적용함.**
+
+**- 데이터의 결측치 제거 및 스케일링을 수행하여 향후 모델 학습 시 데이터의 균형을 유지하도록 조정함.**
+
+**- 본 연구는 대규모 언어모델(LLM) 학습을 위한 기초 단계로서, 언어 데이터에 대한 분석 및 이해도를 증진하는 데 기여할 것으로 기대됨.**
+
