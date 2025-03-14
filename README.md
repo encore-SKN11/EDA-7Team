@@ -136,7 +136,7 @@
 * 같은 메일에서 자주 함께 사용되는 단어들을 군집화하여 데이터 속성 축소
 
 <p align="center">
-  <img src="./readme_image/word_heatmap_1.png" height="680" width="700">
+  <img src="./readme_image/word_heatmap_1.png" height="650" width="700">
 </p>
 
 <div align="center">
@@ -145,7 +145,7 @@
 <br>
 
 <p align="center">
-  <img src="./readme_image/word_heatmap_2.png" height="530" width="600">
+  <img src="./readme_image/word_heatmap_2.png" height="500" width="600">
 </p>
 
 <div align="center">
