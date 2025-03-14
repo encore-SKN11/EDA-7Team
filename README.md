@@ -47,7 +47,7 @@
 ### 1) 🚫 스팸 데이터 특성 파악
  * 특정 단어의 빈도높은 반복 (예: 주식 등)
 <p align="center">
-  <img src="./readme_image/스팸타입1.jpg" height="280" width="300">
+  <img src="./readme_image/스팸타입1.jpg" height="260" width="280">
 </p>
 
 <div align="center">
