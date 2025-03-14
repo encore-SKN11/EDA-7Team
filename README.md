@@ -194,7 +194,7 @@
   
 <br>
     
-* 값이 0인 데이터의 비율이 30%를 초과하는 word_group2, group3, group5의 평균값 확인을 위해 박스(box) 플롯 작성
+* 값이 0인 데이터의 비율이 30%를 초과하는 word_group2, group3, group5의 데이터 분포 확인을 위해 박스(box) 플롯 작성
 * 박스 플롯을 통해 group2, group3, group5의 데이터의 불균형이 심함을 확인할 수 있음
 
 <p align="center">
