@@ -190,6 +190,7 @@
 * 값이 0인 데이터가 30%를 초과할 경우 임계값을 설정하여 데이터 값을 0과 1로 이진화
 * 데이터의 임계값은 이상치를 제외한 값들의 평균 사용
 * 값이 0인 데이터가 30%를 초과하는 word_group2, group3, group5의 평균값 확인을 위해 박스(box) 플롯 작성
+* 박스 플롯을 통해 group2, group3, group5의 데이터의 불균형이 심함을 확인할 수 있음
 
 <p align="center">
   <img src="./readme_image/box_group2.png" height="530" width="600">
@@ -214,8 +215,6 @@
   그림 3.9 word_group5_frq 속성의 박스 플롯
 </div>
 <br>
-
-* 박스 플롯을 통해 group2, group3, group5의 데이터의 불균형이 심함을 확인할 수 있음
 
 <p align="center">
   <img src="./readme_image/전처리 후 그루핑 데이터 프레임.png" height="150" width="1000">
