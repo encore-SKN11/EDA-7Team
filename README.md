@@ -59,7 +59,7 @@
 * 과도한 특수문자 사용 (예: *, [] 등)
   
 <p align="center">
-  <img src="./readme_image/스팸타입2.jpg" height="250" width="800">
+  <img src="./readme_image/스팸타입2.jpg" height="280" width="650">
 </p>
 
 <div align="center">
