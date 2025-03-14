@@ -1,4 +1,4 @@
-# SKN011-EDA-7Team
+# 0️⃣ SKN011-EDA-7Team
 - 이현민
 - 정현욱
 - 홍성욱
